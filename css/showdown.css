@@ -1,0 +1,328 @@
+@CHARSET "UTF-8";
+		@font-face {
+				font-family: Folksolid-webfont; src: url('../font/Folksolid-webfont.ttf');
+		}
+		#showdown_container {
+				display: none;
+				position: absolute;
+				width:999px;
+				height: 490px;
+				
+			}
+		#game_button_container {
+				position: relative;
+				width: 454px;
+				height: 54px;
+				/**background-color:green;**/
+				margin-left:auto;
+				margin-right:auto;
+				margin-top: 20px;
+				font-family: Folksolid-webfont;
+			}
+			#shoot_button {
+				position: relative;
+				float:left;
+				width:150px;
+				height: 35px;
+				padding-top:15px;
+				background-color: #BD6E46;
+				color: #731702;
+				text-align:center;
+				border-color: #731702;
+				cursor:pointer;
+				font-size:24px;
+				border-left: 2px solid;
+				border-top: 2px solid;
+				border-bottom: 2px solid;
+				border-radius: 25px 0px 0px 25px;
+				-moz-border-radius:25px 0px 0px 25px;
+				-webkit-border-radius:25px 0px 0px 25px;
+			}
+			#shoot_button:hover {
+				border-color: white;
+			}
+			#duck_button {
+				position: relative;
+				float:left;
+				width:150px;
+				height: 35px;
+				padding-top:15px;
+				background-color: #BD6E46;
+				color: #731702;
+				text-align:center;
+				border-color: #731702;
+				cursor:pointer;
+				font-size:24px;
+				border-top: 2px solid;
+				border-bottom: 2px solid;
+			}
+			#duck_button:hover {
+				border-color: white;
+			}
+			#reload_button {
+				position: relative;
+				float:left;
+				width:150px;
+				height: 35px;
+				padding-top:15px;
+				background-color: #BD6E46;
+				color: #731702;
+				text-align:center;
+				border-color: #731702;
+				cursor:pointer;
+				font-size:24px;
+				border-right: 2px solid;
+				border-top: 2px solid;
+				border-bottom: 2px solid;
+				border-radius: 0px 25px 25px 0px;
+				-moz-border-radius: 0px 25px 25px 0px;
+				-webkit-border-radius:0px 25px 25px 0px;
+			}
+			#reload_button:hover {
+				border-color: white;
+			}
+			
+			#cowboy_left {
+				position: relative;
+				float: left;
+				width: 499px;
+				height: 490px;
+				background-color: #82BF93;
+			}
+			#cowboy_right {
+				position: relative;
+				float: left;
+				width: 499px;
+				height: 490px;
+				background-color: #82BF93;
+				
+			}
+			
+			#cowboy_left_img {
+				margin-top:20px;
+				/*background:url(../img/cowboy.png);*/
+				background:url(../img/cowboy_user.png);
+				width:380px;
+				height:424px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			#cowboy_right_img {
+				margin-top:20px;
+				/*background:url(../img/cowboy_cropped_right.png);*/
+				background:url(../img/cowboy_opponent.png);
+				width:380px;
+				height:424px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.cowboy_name {
+				position: relative;
+				width:380px;
+				margin-left: auto;
+				margin-right: auto;
+				text-align:center;
+				font-family: Folksolid-webfont;
+				color: white;
+				font-size:28px;
+				margin-top: -15px;
+			}
+			.cowboy_move {
+				position: relative;
+				width: 380px;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+				font-family: Folksolid-webfont;
+				color: red;
+				font-size: 28px;
+				margin-top:-10px;
+			}
+			#score_board {
+				/**position:relative;
+				float:right;**/
+				position: absolute;
+				z-index:10;
+				
+				margin-left: 410px;/*395px;*/
+				margin-top: 330px;/*350px;*/
+				width: 180px;/*200px;*/
+				height: 110px;
+				/*background-color: #453B2C;*/
+				background-color: #EDEDA9;
+				border-radius: 10px;
+				display: none;
+			}
+			.sb_container {
+				position: relative;
+				background-color: #EDEDA9;
+				border-radius: 10px;
+				width: 70px;
+				height: 110px;
+				
+			}
+			#sb_left_container {
+				float: left;
+			}
+			#sb_right_container {
+				float: right;
+			}
+			.sb_sides {
+				position:relative;
+				float: left;
+				width:70px;
+				height:90px;
+				text-align:center;
+				font-family: Folksolid-webfont;
+				color: #453B2C;
+				font-size:96px;
+			}
+			#sb_left {
+				/*background-color:green;*/
+			}
+			#sb_right {
+				/*background-color:black;*/
+			}
+			#sb_divider {
+				/*background-color:blue;*/
+				width:40px;/*60px;*/
+				height: 70px;
+				font-size:60px;
+				margin-top: 20px;
+				color: #82BF93;
+			}
+			.sb_bottom {
+				width: 70px;
+				position: relative;
+				float: left;
+				text-align: center;
+				font-family: Folksolid-webfont;
+				color: #453B2C;
+				font-size:24px;
+				margin-top: -10px;
+			}
+			#sb_left_bottom {
+				float: left;
+			}
+			#sb_right_bottom {
+				float: right;
+			}
+			#final_score {
+				position: relative;
+				float: left;
+				width: 499px;
+				height: 410px;
+				background-color: #82BF93;
+				font-family: Folksolid-webfont;
+				color: white;
+				font-size:96px;
+				text-align: center;
+				padding-top: 80px;
+				display:none;
+				
+			}
+			#fs_text {
+				position:relative;
+				width: 499px;
+				text-align:center;
+				font-family: Folksolid-webfont;
+				color: white;
+				font-size:96px;
+				margin-top: -50px;
+				
+			}
+			#fs_button {
+				position: relative;
+				width: 200px;
+				height: 40px;
+				text-align:center;
+				font-family: Folksolid-webfont;
+				color: white;
+				font-size:36px;
+				background-color: #BD6E46;
+				border: 3px solid;
+				-moz-border-radius:25px;
+				-webkit-border-radius:25px;
+				padding-top: 0px;
+				margin-left: auto;
+				margin-right: auto;
+				border-color: #731702;
+				cursor: pointer;
+			}
+			#fs_button:hover {
+				border-color: white;
+			}
+			#progress_showdown {
+				margin-top: 25px;
+				margin-left: auto;
+				margin-right: auto;
+				width: 480px;
+				display: none;
+				background-color: transparent;
+				font-family: Folksolid-webfont;
+				font-size:36px;
+				color: white;
+				-webkit-animation-duration: 4s;
+			}
+			#instruction_container {
+				position: absolute;
+				z-index: 15;
+				margin-left: 249px;
+				margin-top: 70px;
+				width: 500px;
+				height: 370px;
+				text-align: center;
+				color: red;
+				background-color: #453B2C;
+				border-radius:25px;
+				-moz-border-radius:25px;
+				font-family: Folksolid-webfont;
+				font-size: 72px;
+				-moz-box-shadow: 7px 7px 4px #888888;
+				-webkit-box-shadow: 7px 7px 4px #888888;
+				box-shadow: 7px 7px 4px #888888;
+			}
+			#instruction_body {
+				margin-top: -10px;
+				font-size: 36px;
+				text-align: left;
+				width: 350px;
+				margin-left: 75px;	
+				color: white;
+			}
+			#instruction_button {
+				position: relative;
+				margin-left: auto;
+				margin-right: auto;
+				width: 120px;
+				background-color: #BD6E46;
+				margin-top:5px;
+				padding-top: 2px;
+				border: 2px solid;
+				border-radius: 25px;
+				-moz-border-radius:25px;
+				-webkit-border-radius:25px;
+				font-family: Folksolid-webfont;
+				text-align:center;
+				font-size: 36px;
+				margin-top: 10px;
+				cursor: pointer;
+				color: white;
+				border-color: #731702;
+				-webkit-transition: border-color .1s linear;
+				-moz-transition: border-color .1s linear;
+			}
+			#instruction_button:hover {
+				border-color:black;
+			}
+			#canvas_showdown_left {
+				position: relative;
+				width: 380px;
+				height: 424px;
+			}
+			#canvas_showdown_right {
+				position: relative;
+				width: 380px;
+				height: 424px;
+				margin-left: -3px;
+			}	

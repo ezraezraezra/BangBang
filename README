@@ -1,0 +1,23 @@
+/**********************************************************************
+ * Developer:   Ezra Velazquez http://ezraezraezra.com
+ * Class:       ITP - Dynamic Web Development
+ * 
+ * Date:        May 2011
+ *
+ * Title:       BangBang       http://ezraezraezra.com/bangbang
+ * Description: Video chat while watching synced videos.
+ *              Synced videos are stopped and replaced with a live
+ *              video feed when an artist turns on his/her camera
+ *
+ * Tech:        AJAX, CSS, CSS3, HTML, JavaScript, JSON, jQuery, 
+ *              MySQL, Node.js, OpenTok API, PHP, Socket.io, YouTube API
+ * Last Update: August 9th, 2011
+ ***********************************************************************/
+ 
+ NOTE: *** 3rd PARTY LIBRARIES HAVE BEEN OMITTED FROM THE PUBLIC REPO ***
+ 
+ Libraries Omitted:  OpenTok     http://www.tokbox.com
+                     jQuery      http://jquery.com
+
+ Folders Omitted:    audio       Audio files found on http://www.archive.org/
+                     font        Font files found online

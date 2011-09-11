@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+			@font-face {
+				font-family: Folksolid-webfont; src: url('../font/Folksolid-webfont.ttf');
+			}
+			#login_container {
+				position: absolute;
+				width:999px;
+				height: 490px;
+				/**margin-top: 100px;	
+				**/
+			}
+			#facebook_login {
+				position: relative;
+				float: left;
+				width: 499px;
+				height: 490px;
+				background-color: #82BF93;
+			}
+			#normal_login {
+				position: relative;
+				float:left;
+				padding-top: 100px;
+				padding-left: 100px;
+				width: 400px;
+				height: 390px;
+				background-color: #82BF93;
+				font-family: Folksolid-webfont;
+				font-size: 96px;
+				color:white;
+				
+				-webkit-transition: color .1s linear;
+				-moz-transition: color .1s linear;
+				
+			}
+			#input_name {
+				margin-top: -25px;
+				width: 300px;
+				height: 55px;
+				font-size: 48px;
+				font-family: Folksolid-webfont;
+			}
+			#login_button {
+				position: relative;
+				margin-left: 180px;
+				width: 120px;
+				background-color: #BD6E46;
+				margin-top:5px;
+				padding-top: 7px;
+				border: 2px solid;
+				border-radius: 25px;
+				-moz-border-radius:25px;
+				-webkit-border-radius:25px;
+				font-family: Folksolid-webfont;
+				text-align:center;
+				font-size: 28px;
+				margin-top: 10px;
+				cursor: pointer;
+				color: white;
+				border-color: #731702;
+				-webkit-transition: border-color .1s linear;
+				-moz-transition: border-color .1s linear;
+			}
+			#login_button:hover {
+				border-color:black;
+			}
+			#login_cowboy {
+				margin-top:20px;
+				/*background:url(../img/cowboy.png);*/
+				/*background:url(../img/cowboy_user.png);*/
+				width:380px;
+				height:424px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.login_button_class {
+				position: relative;
+				margin-left: 180px;
+				width: 120px;
+				background-color: #BD6E46;
+				margin-top:5px;
+				padding-top: 7px;
+				border: 2px solid;
+				border-radius: 25px;
+				-moz-border-radius:25px;
+				-webkit-border-radius:25px;
+				font-family: Folksolid-webfont;
+				text-align:center;
+				font-size: 28px;
+				margin-top: 10px;
+				cursor: pointer;
+				color: white;
+				border-color: #731702;
+				-webkit-transition: border-color .1s linear;
+				-moz-transition: border-color .1s linear;
+				
+			}
+			#login_button_2 {
+				display:none;
+			}
+			#login_button_2:hover {
+				border-color: black;
+			}
+			#phase_2 {
+				position: absolute;
+				margin-left: -75px;
+				margin-top: -75px;
+				font-size:48px;
+				z-index:10;
+				display:none;
+			}
+			#phase_1 {
+				margin-top: 0px;/*-50px;*/
+				position: absolute;
+				z-index:20;
+				height: 200px;
+				display: none;
+			}
+			#progress_login_2 {
+				margin-top: 20px;
+			}
+			#intro_canvas_right {
+				margin-top: -80px;
+				
+			}

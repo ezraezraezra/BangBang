@@ -1,0 +1,241 @@
+@CHARSET "UTF-8";
+			@font-face {
+				font-family: Folksolid-webfont; src: url('../font/Folksolid-webfont.ttf');
+			}
+			body {
+				padding: 0px;
+				margin: 0px;
+				width: 100%;
+				height: 100%;
+				background-color: #EDEDA9;
+			}
+			#app_container {
+				position: relative;
+				width: 999px;
+				height: 690px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 5px;
+				background-color: #F2B279;
+			}
+			#header {
+				position: absolute;
+				background-color: #453B2C;
+				width: 999px;
+				height: 100px;
+			}
+			#app_body {
+				position:absolute;
+				width: 999px;
+				height: 490px;
+				background-color:#82BF93;
+				margin-top: 100px;
+			}
+			#footer {
+				position: absolute;
+				width: 999px;
+				height: 100px;
+				bottom: 0px;
+				background-color: #453B2C;
+			}
+			#title {
+				position: absolute;
+				margin-left: 25px;
+				margin-top: 5px;
+				color: #EDEDA9;
+				font-size: 96px;
+				font-family: Folksolid-webfont;
+			}
+			#ezra_logo {
+				position: relative;
+				text-align:center;
+				display:block;
+				width: 100px;
+				margin-left:auto;
+				margin-right:auto;
+				border:0;
+				margin-top: 10px;
+				background: url(../img/ezra_logo.png);
+				width:100px;
+				height:57px;
+			}
+			#facebook_like {
+				position: relative;
+				float:right;
+				margin-top: 30px;
+				margin-right:20px;
+			}
+			#column_left {
+				position:relative;
+				float:left;
+				width:0px;
+				height:690px;
+				z-index:10;
+				background-color: #EDEDA9;
+			}
+			#column_right {
+				position:relative;
+				float:right;
+				width:0px;
+				height:690px;
+				z-index:10;
+				background-color: #EDEDA9;
+			}
+			#oCamera_1 {
+				/*top: 129px;*/
+				left: 32px;
+			}
+			#oCamera_2 {
+				/*top: 119px;*/
+				left: 272px;
+			}
+			#oCamera_3 {
+				/*top: 149px;*/
+				left: 512px;
+			}
+			#oCamera_4 {
+				/*top: 134px;*/
+				left: 752px;
+			}
+			#like_button {
+				position: relative;
+				float:right;
+				margin-top: 18px;
+				margin-right: 10px;
+				width:65px;
+				height:50px;
+			}
+			#small_fb {
+				position: relative;
+				margin-left: auto;
+				margin-right: auto;
+				height: 30px;
+				width: 200px;
+				font-size: 48px;
+				text-align: center;
+			}
+			#small_fb_text {
+				position: relative;
+				float: right;
+				height: 30px;
+				font-size: 48px;
+				text-align: center;
+				margin-top: -17px;
+			}
+			
+			
+			.progress_bar {
+				width: 60px;
+				height: 50px;
+				position: relative;
+				margin-left: 200px;
+				margin-right: auto;
+				margin-top: 120px;
+				text-align: center;
+		
+	}
+	.progress_ball {
+		background-color: red;
+		border-radius: 25px;
+		width: 15px;
+		height: 15px;
+		-moz-border-radius: 25px;
+		margin: 2px;
+		position: relative;
+		float: left;
+		-webkit-animation-name: progress_loader;
+		-webkit-animation-duration: 2s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-direction: linear;
+		opacity: 0;
+		-webkit-tranform: scale(0.8);
+	}
+	#progress_ball_1 {
+		-webkit-animation-delay: .3s;
+	}
+	#progress_ball_2 {
+		-webkit-animation-delay: .4s;
+	}
+	#progress_ball_3 {
+		-webkit-animation-delay: .5s;
+	}
+	@-webkit-keyframes progress_loader {
+		0%{opacity: 0;}
+		50%{opacity:1;}
+		100%{opacity:0;}
+	}
+	#progress_ball_4 {
+		-webkit-animation-delay: .6s;
+	}
+	#progress_ball_5 {
+		-webkit-animation-delay: .7s;
+	}
+	#progress_ball_6 {
+		-webkit-animation-delay: .8s;
+	}
+	#progress_ball_7 {
+		-webkit-animation-delay: .9s;
+	}
+	#progress_ball_8 {
+		-webkit-animation-delay: 1s;
+	}
+	#progress_ball_9 {
+		-webkit-animation-delay: 1.1s;
+	}
+	#progress_ball_10 {
+		-webkit-animation-delay: 1.2s;
+	}
+	#progress_ball_11 {
+		-webkit-animation-delay: 1.3s;
+	}
+	#progress_ball_12 {
+		-webkit-animation-delay: 1.4s;
+	}
+	#progress_ball_13 {
+		-webkit-animation-delay: 1.5s;
+	}
+	#progress_ball_14 {
+		-webkit-animation-delay: 1.6s;
+	}
+	#progress_ball_15 {
+		-webkit-animation-delay: 1.7s;
+	}
+	#progress_ball_16 {
+		-webkit-animation-delay: 1.8s;
+	}
+	#progress_ball_17 {
+		-webkit-animation-delay: 1.9s;
+	}
+	#progress_ball_18 {
+		-webkit-animation-delay: 2.0s;
+	}
+	#progress_ball_19 {
+		-webkit-animation-delay: 2.1s;
+	}
+	#progress_ball_20 {
+		-webkit-animation-delay: 2.2s;
+	}
+	#progress_ball_21 {
+		-webkit-animation-delay: 2.3s;
+	}
+	#progress_ball_22 {
+		-webkit-animation-delay: 2.4s;
+	}
+	#progress_ball_23 {
+		-webkit-animation-delay: 2.5s;
+	}
+	#progress_ball_24 {
+		-webkit-animation-delay: 2.6s;
+	}
+	#progress_ball_25 {
+		-webkit-animation-delay: 2.7s;
+	}
+	#volume_button {
+		position: absolute;
+		top: 610px;
+		right: 20px;
+		width: 64px;
+		height: 64px;
+		cursor: pointer;
+	}
+			
