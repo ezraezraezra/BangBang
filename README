@@ -5,13 +5,13 @@
  * Date:        May 2011
  *
  * Title:       BangBang       http://ezraezraezra.com/bangbang
- * Description: Video chat while watching synced videos.
- *              Synced videos are stopped and replaced with a live
- *              video feed when an artist turns on his/her camera
+ * Description: A multiplayer telepresence strategy-based web game.
+ *              The objective of the game is to survive the Mexican
+ *              standoff.
  *
  * Tech:        AJAX, CSS, CSS3, HTML, JavaScript, JSON, jQuery, 
- *              MySQL, Node.js, OpenTok API, PHP, Socket.io, YouTube API
- * Last Update: August 9th, 2011
+ *              MySQL, OpenTok API, PHP
+ * Last Update: May 1st, 2011
  ***********************************************************************/
  
  NOTE: *** 3rd PARTY LIBRARIES HAVE BEEN OMITTED FROM THE PUBLIC REPO ***
