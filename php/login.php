@@ -4,6 +4,17 @@ require "info.php";
 require_once '../SDK/API_Config.php';
 require_once '../SDK/OpenTokSDK.php';
 
+/*
+ * Project:     BangBang
+ * Description: A multiplayer telepresence stragegy-based web game
+ * Website:     http://ezraezraezra.com/bangbang
+ * 
+ * Author:      Ezra Velazquez
+ * Website:     http://ezraezraezra.com
+ * Date:        May 2011
+ * 
+ */
+
 if($_POST['comm'] == 'login') {
 	$user_name = $_POST['user_name'];
 

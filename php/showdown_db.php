@@ -2,6 +2,17 @@
 header('Content-type: application/json; charset=utf-8');
 require "info.php";
 
+/*
+ * Project:     BangBang
+ * Description: A multiplayer telepresence stragegy-based web game
+ * Website:     http://ezraezraezra.com/bangbang
+ * 
+ * Author:      Ezra Velazquez
+ * Website:     http://ezraezraezra.com
+ * Date:        May 2011
+ * 
+ */
+
 if($_POST['comm'] == 'vs') {
 	$user_id = $_POST['u_id'];
 	$opponent_id = $_POST['o_id'];

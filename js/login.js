@@ -1,3 +1,13 @@
+/*
+ * Project:     BangBang
+ * Description: A multiplayer telepresence stragegy-based web game
+ * Website:     http://ezraezraezra.com/bangbang
+ * 
+ * Author:      Ezra Velazquez
+ * Website:     http://ezraezraezra.com
+ * Date:        May 2011
+ * 
+ */
 var stage = 0;
 var temp_u_id = "nana";
 var temp_s_id = "0";

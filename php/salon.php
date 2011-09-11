@@ -1,6 +1,17 @@
 <?php
 require "info.php";
 
+/*
+ * Project:     BangBang
+ * Description: A multiplayer telepresence stragegy-based web game
+ * Website:     http://ezraezraezra.com/bangbang
+ * 
+ * Author:      Ezra Velazquez
+ * Website:     http://ezraezraezra.com
+ * Date:        May 2011
+ * 
+ */
+
 if($_POST['comm'] == 'display') {
 	salon_display();
 }

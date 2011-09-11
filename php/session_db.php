@@ -3,6 +3,17 @@ ignore_user_abort(TRUE);
 
 require "info.php";
 
+/*
+ * Project:     BangBang
+ * Description: A multiplayer telepresence stragegy-based web game
+ * Website:     http://ezraezraezra.com/bangbang
+ * 
+ * Author:      Ezra Velazquez
+ * Website:     http://ezraezraezra.com
+ * Date:        May 2011
+ * 
+ */
+
 	$s_id = $_GET['s_id'];
 	$u_id = $_GET['u_id'];
 	/**
